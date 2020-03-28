@@ -1,0 +1,6 @@
+all:
+	(cd timerLib2; make install)
+
+clean:
+	(cd timerLib2; make clean)
+	rm -rf lib2 h2
